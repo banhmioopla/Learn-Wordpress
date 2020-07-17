@@ -1,0 +1,24 @@
+/* =============================================================================
+ COMMENTS
+   ========================================================================== */   
+.ppt-comment-form { margin-bottom:30px; }
+.ppt-comment-form #respond h3 { font-size:14px; }
+.ppt-comment-form #comment { min-height:200px; }		
+.ppt-comment-form #respond small { font-size: 14px;    font-weight: bold;    float: right;}	
+
+.ppt-comment-form-single .ratingbox { margin-bottom: 20px; }
+.ppt-comment-form-single textarea { min-height:150px; }
+.ppt-comment-form-single label { font-size:13px; text-transform:uppercase; letter-spacing:1px; margin:0px; color:#666; }
+.ppt-comment-form-single .btn {  color:#FFFFFF;  margin-top:30px !important;  }
+.ppt-comment-form-single h4 {  font-size:16px; margin-bottom:10px; text-transform:uppercase;  }
+/* =============================================================================
+
+IMAGES BLOCKS
+   ========================================================================== */
+
+/* desktop */
+.images-1 figure {  height: 100px;     overflow: hidden;   }
+.images-1 figure img { height:100%; }
+@media (min-width: 1200px) {
+
+}

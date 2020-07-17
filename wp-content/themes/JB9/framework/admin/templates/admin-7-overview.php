@@ -1,0 +1,93 @@
+<?php
+/* 
+* Theme: PREMIUMPRESS CORE FRAMEWORK FILE
+* Url: www.premiumpress.com
+* Author: Mark Fail
+*
+* THIS FILE WILL BE UPDATED WITH EVERY UPDATE
+* IF YOU WANT TO MODIFY THIS FILE, CREATE A CHILD THEME
+*
+* http://codex.wordpress.org/Child_Themes
+*/
+if (!defined('THEME_VERSION')) {	header('HTTP/1.0 403 Forbidden'); exit; }
+
+ 
+$options = array(
+
+	"s0" => array( "sep" => true, "name" => "Advertising", ),
+
+
+	"bannerass" => array(
+	
+		"name" => "Banner Locations",
+		"desc"	=> "Decide where to place your created banners on your website.",
+		"icon" => "fa-flag-o ",
+		"link" => "#",
+	
+	),
+	
+
+
+	"banners" => array(
+	
+		"name" => "Add/Edit Banners",
+		"desc"	=> "Create banners and upload them to your website.",
+		"icon" => "fa-plus",
+		"link" => "#",
+	
+	),
+	
+ 
+	/*
+ 	"sell" => array(
+	
+		"name" => "Sell Space",
+		"desc"	=> "Enable sell space on your website so other companies can advertise their products.",
+		"icon" => "fa-money ",
+		"link" => "#",
+	
+	),
+	*/
+
+ 
+
+		
+);
+
+foreach($options as $key => $opt){ ?>
+
+	<?php if(isset($opt['sep'])){ ?>
+    
+    <h4><?php echo $opt['name']; ?></h4>
+    
+    <?php }else{ ?>
+    
+    
+    <div class="card iconbox">
+    
+        <div class="card-body">
+        
+                <i class="fa <?php echo $opt['icon']; ?>"></i>
+            
+                <div class="icon-text">
+                
+                <a <?php if($opt['link'] == "#"){ ?>href="#<?php echo $key; ?>" onclick="jQuery('#ShowTab').val('<?php echo $key; ?>')" data-toggle="tab"<?php }else{ ?> href="<?php echo $opt['link']; ?>"<?php } ?> class="btn btn-primary btn-sm float-right">
+                View Page
+                
+                </a>
+                
+                <strong><?php echo $opt['name']; ?></strong>
+                    
+                <?php echo $opt['desc']; ?>
+                
+                </div><!-- end txt -->
+            
+            </div>
+            
+        </div><!-- end card -->
+        
+    <div class="clearfix"></div>
+    
+    <?php } ?>
+
+<?php } ?>

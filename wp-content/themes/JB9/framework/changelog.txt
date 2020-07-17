@@ -1,0 +1,509 @@
+9.4.3
+------------------------
+
+CORE - fixed - bug with comment meta left after deletion
+
+CORE - added - [design setup] on/off switch for CSS combine
+CORE - added - lazy load
+CORE - added - contact form widget
+CORE - added - [design setup] title removal option for list view in search
+CORE - added - only one listing option
+CORE - added - user photo to WP media and moved main photo to thumbnail size
+CORE - updated - SHORTCODE Elementor widget to include array values
+CORE - updated - widgets
+
+CP - fixed page nav on stores page
+CP - added - display change for those without expiry dates
+
+MJ - added - standard/premium gig options
+MJ - added - recoding for buy now
+MJ - added - basic seller levels
+MJ - added - cron for auto close and refund after 72 hours where job not seen by seller
+MJ - added - cron for auto close job after 30 days where buyer did not release funds
+MJ - fixed - reviews system
+
+9.4.2
+------------------------
+
+CORE - fixed - issue with sellspace admin edit banners
+CORE - fixed - featured listings issue in carousel
+CORE - fixed - issue with sidebar on pages
+CORE - fixed - saving keyword tags issue
+CORE - fixed - invoice design for print
+
+CORE - added - 3 new search item designs
+CORE - added - customer redirect link for memberships
+CORE - added - 5 new listing package slots
+CORE - added - search widget
+CORE - added - categories widget
+CORE - added - sidebar display option to design setup 
+CORE - added - custom CSS panel for design setup
+CORE - added - child theme export tool
+
+CORE - redesigned search page
+CORE - redesigned design setup page
+
+CP - changed big description to default to small description on store page
+DT - added map to search page
+VT - added new video preview timer feature
+
+Updated WP Customizer with new options
+
+9.4.1
+------------------------
+
+BUG - images - single image bug
+
+CORE - added elementor sections for replacing inner content instead of the entire page
+CORE - sellspace - added sample banner upload options
+CORE - new Elementor sidebar widget
+CORE - Customizer - updated logo and added transparent homepage button
+CORE - removed login from heade elemenots if registration is disabled
+CORE - fixed category count but for adding listings
+
+CSS - set default width to 1300px
+
+RT - fixed issue with contact form
+
+9.4.3
+------------------------
+
+added category widget area
+
+added jQuery currency formatting options for better EUR display
+
+CORE - updated HTML editor JS for stablity.
+
+MJ - updated default elementor template for listing page to include new title
+MJ - fixed css issue within 'delivery' widget
+
+AT - updated default elementor template for listing page to include new title
+
+CP - added store widget area
+CP - added coupon button back
+CP - update store page numbering
+
+JB - added affiliate link option for apply button
+
+9.4.3
+------------------------
+
+addded quick link for setting Elementor homepage templates
+
+updated submission form to prevent repeat payments for older listings
+
+removed old members template file
+
+AT - added bidding message after bid is placed
+
+CP - added related coupons to listing page
+
+9.4.0
+------------------------
+
+added listing renewal option
+fixed homepage editing button in design setup
+fixed newsletter button issue
+
+MJ - fixed CSS issue with title display
+
+9.3.7
+------------------------
+
+added from column to internal messages
+added homepage content link back to design tab
+
+updated VIDEO shortcode to support non-youtube video display
+updated WP customizer display
+
+removed 'managae listings' dead link
+
+MJ - updated work flow page
+AT - fixed bug with max bid and reserve price
+AT - updated logs for better display
+
+9.3.6
+------------------------
+
+fixed issue with WP customizer not updating on front end
+fixed/updated CSS for search items
+micro jobs updated addon on order data pages
+
+9.3.4/9.3.5
+------------------------
+
+admin interface redesign
+updated WP customizer tool
+updated all themes for single lisitng page template using elementor
+
+
+9.3.3
+------------------------
+
+fixed issue with upload limits
+fixed css issue with long tags
+
+cleaned up Elementor interface
+
+CP - fixed bug coupon box showing even when button disabled
+
+SP - theme updated to latest framework release
+
+9.3.2
+------------------------
+
+adjusted design of the sell-space within account area
+fixed issue with social icon editing via the admin
+updated the sell-space system to include custom banner sizes
+fixed issue with user payment type -> bank not showing
+updated admin add/edit listing page - increase list of listing authors for swapping ownership
+removed single layout for search page
+reduced upload size of images to 150px/150px
+added option to set custom listing page layout
+added listing page widget area
+moved core layout items to widget spaces
+redeveloped listing boxes
+redeveloped responsive layouts
+removed mobile web option
+
+updated DT/AT/CT/MJ/DA core setup
+
+
+9.3.1
+------------------------
+
+fixed bug with deleting user fields
+fixed bug with user uploads
+fixed bug with CSS changes for header
+fixed advertising (sell space) on/off button
+
+
+9.3.0
+------------------------
+
+Fixed Elementor header/footer bug for child theme installs
+Added on/off option for user verified badges
+
+9.2.9
+------------------------
+
+Added membership options for registration page
+CORE - added default flag icon for language selection
+CP - fixed success rate shortcode
+
+9.2.8  - April 30th 2019
+------------------------
+
+CORE - Updated admin area interface
+CORE - Blog date format changed
+CORE - Updated page access permissions
+CORE - Facebook integration updated
+CORE - added custom header style options for MJ/CT/CP/DT/RT
+
+MJ - added refund system
+DT - added claim listing widgets for DT
+
+
+9.2.7 - March 26th 2019
+------------------------
+
+SP - added affiliate menu option in add/edit product via the admin.
+SP - fixed issue with reviews not showing
+DL - Fixed free download option 
+AT - added titles to search results page for bidding/won.
+
+DA - updated matching options to reflect users searching for specific user types
+
+CORE - fixed bug with Google recaptcha on login/register page.
+CORE - added option to require category selection during listing submission
+CORE - changed blog post date format
+
+9.2.6
+------------------------
+
+SP - fixed affiliate link issue on category pages
+
+AT - added condition to listing display
+
+white space - removed space from tpl-myaccount file
+
+CORE - fixed orderby not working on some designs.
+
+
+9.2.5
+------------------------
+
+MJ - fixed issue with jobs display 'days'
+MJ - stopped non users paying for jobs
+MJ - fixed issue with price change for add-ons
+
+SP - review button link fix for non-logged in users
+
+CM - updated non-translated text
+CM - fixed alt issue on comparison table
+
+CORE - changed layout for the messaging screen
+CORE - fixed issue with related items on listing page
+CORE - Elementor custom header styles not showing on login pages
+CORE - Updated the display for the date function in the admin custom fields
+
+SP - added new mobile interface design
+CP - added new mobile interface design
+CT - added new mobile interface design
+
+9.2.4
+------------------------
+ 
+CORE - fixed issue with mobile SMS for password reset
+
+CORE - added more support for Elementor header/footer elements.
+
+9.2.3
+------------------------
+
+CORE - fixed description limitation option on submission form
+CORE - added payment method display to orders page
+
+CORE - fixed custom field 'title' display issue.
+CORE - updated calendar display for mobile devices.
+CORE - updated the custom field display for add listing and category only fields.
+
+CORE - added 'already logged in' to the register/login pae.
+
+JB - fixed issue with resumes showing for everyone
+JB - fixed issue with counters
+
+CP - fixed issue with store icon displaying
+
+
+9.2.2
+-----------------------
+
+
+SP - fixed coupon issue
+SP - fixed shipping issue
+SP - fixed guest checkout
+SP - added catalog mode
+
+
+CORE - updated file_gets_content with WP function wp_remote_fopen
+CORE - language translaiton for categories
+CORE - temp post issue with multiple images
+CORE - pricing issue with default listing price and free listings
+CORE - fixed contact form email issue when google capacthe enabled but not setup
+CORE - fixed email issue with new listings
+CORE - added admin email for editing listing
+CORE - added registration options to login area for easier usage
+
+
+9.2.1
+-----------------------
+
+CORE - fixed user new listing email
+CORE - adjusted orders page design in the admin for easier viewing
+CORE - added Google recaptch to registration page
+CORE - added fontawesome eot file.
+
+AT - added contact details for buyer/seller after auction ends.
+AT - added admin upload image option for listings
+AT - fixed issue with outbid emails
+AT - added paypal option for users to pay each other
+AT - added address details to my account section
+
+CP - added seconds section of expiry date on user submission form
+DA - added on/off options for default custom fields
+
+SP - fixed issue with checkout custom shipping display
+SP - fixed percentage tax calculations
+
+9.2.0
+-----------------------
+
+CORE - fixed linking of taxonomy fields in custom field setup
+
+CORE - added membership display to users admin area
+CORE - fixed map marker pin display
+CORE - updated CSS/JS Framework to Bootstrap 4.1.3
+CORE - added tpl-login.php/tpl-register.php page template for custom login/register page links
+CORE - added cashout requests to admin area 
+
+CORE - custom fields 'required' save issue
+
+9.1.9
+-----
+
+CORE - fixed conflict with gutenberg editor
+CORE - added page assignment for header/footer areas.
+CORE - fixed issue with custom fields
+CORE - added custom fields to admin area
+CORE - added 'add listing' link to my account page
+CORE - added SMS function for emails
+CORE - added more email options
+CORE - fixed display issue with submission due to new design
+CORE - Fixed issue some users were having with listing categories
+CORE - added Sellspace link to my account area
+CORE - added 'reply-to' email headers for replying to contact form messages
+CORE - fixed issue with membership count for used listings
+
+CP - added custom slug option for 'stores'
+CP - fixed count issue on stores page
+CP - fixed CSS issue on single page
+
+DA - fixed membership issues
+DA - changed account image to link directly to profile page
+
+9.1.8
+-------
+
+CORE - updated coupon code system
+CORE - added in sell space advertising
+CORE - my account logout display on mobile
+CORE - re-designed the submission process
+CORE - re-designed the membership process
+CORE - PayPal cancel link update
+
+MJ - Fixed issue with new orders not showing on workflow board
+
+DT - added on/off for amenities.
+
+AT - fixed feedback form 
+
+
+9.1.7
+-------
+
+CORE - on/off options for account messages
+CORE - added category list page template
+CORE - added forgotten password link
+
+CP - fixed outbound stores link
+CP - added Google maps
+CP - updated printable coupon display
+
+RT - fixed amenitties update issue
+
+AT - fixed max bid issue
+AT - added 30 second soft close to new bids
+
+
+9.1.6
+----------------
+
+ELEMENTOR - added global header/footer support
+
+EMAIL - set reply button for emails sent by contact form to the user sending
+
+AT - added LOT ajax search
+AT - changed header setup
+AT - added user dashboard links
+
+DT - if all working hours are off, object is hidden
+
+DA - fixed gender search
+
+CP - replace default core theme with new design
+CP - added option to show expired coupons
+
+CT - added YouTube video support
+
+CORE - added full page / no styling page options
+CORE - fixed issue with child theme paths
+CORE - added sidebar on/off option to pages
+CORE - added pages widget menu
+CORE - fixed issue with free memberships 
+
+ADMIN - fixed export link error
+ADMIN - added mass category import
+
+GDPR checkbox added to author page, comments, message form, contact form, newsletter, my details box, photo upload, change password. 
+
+
+9.1.5 - 12th June
+----------------
+
+DT - added claim listing option
+DT - added YouTube support
+DT - fixed advanced search template page display
+
+RT - added YouTube support
+
+AT - updated search options
+AT - added Stripe connect payment integration
+AT - added auction emails
+
+CP - get store page order by term_order
+CP - pageseeker on/off switch
+
+CORE - fix bug with custom fields list
+CORE - updated blog post box
+CORE - css fixes
+CORE - admin notice for user accounts
+CORE - added admin area display options for listing view
+
+
+9.1.4 - 4th June
+----------------
+
+AP - fixed date submit issue
+
+CT - added on/off option for popular seller display on home page
+
+CP - updated stores page with image first instead of pageseeker
+
+CORE - changed menu css to display name of dropdown page
+CORE - redesign add listing form
+CORE - updated upload system for better metadata support
+CORE - added keywords in global search (beta testing)
+CORE - updated account pages
+
+ADMIN - new users block not showing
+
+9.1.3 - 18th May
+----------------
+
+CP - remove word 'text' from store text display.
+CP - added clocked outbound store links
+
+DT - added contact form to listing page
+
+CORE - updated entire admin interface
+CORE - added taxonomy creation interface under tools tab
+CORE - added options to turn on/off expiry listing actions
+CORE - updated cron system
+
+
+9.1.2 - May 2nd
+----------------------
+DP - updated [FIELDS] shortcode and added to listing pages
+DP - adjusted mobile menu setup
+DP - moved global CSS code into global.css file
+
+CP - changed icons setup to store icon and store image for stores page
+CP - fixed homepage issues
+CP - adjusted mobile menu setup
+CP - enabled image upload for front end editing
+
+RT - adjusted header/footer
+RT - removed map from homepage as it slowed down loading times (bad for SEO)
+RT - removed language drop down from top menu - user requested. Will add as seperate child theme.
+
+CORE -  added WordPress customizer tool
+CORE -  updated widget system + added blog widgets
+CORE -  adjusted core menu system for better browser support
+CORE -  added google recaptcha into contact forms.
+CORE -  updated filtering system and template files
+CORE - fixed comments walker css issue
+
+9.1.1 - May 2nd
+----------------------
+
+admin area fixes
+css changes to core themes
+
+fixed membership display counters
+fixed welcome email not updating shortcodes 
+
+9.0 - 25th March 2018
+----------------------
+
+first beta release

@@ -1,0 +1,160 @@
+
+.elementor-panel .elementor-element {
+    position: relative;
+}
+.elementor-element .icon i[class^="layout-"]:after {
+    content: 'LAYOUT';
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 10px;
+    padding: 4px;
+    background: #e00b0b;
+    font-size: 8px;
+    color: #fff;
+}
+.elementor-element .icon i[class^="design-"]:after {
+    content: 'DESIGN';
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 10px;
+    padding: 4px;
+    background:#009966;
+    font-size: 8px;
+    color: #fff;
+}
+.elementor-element .icon i[class^="home-"]:after {
+    content: 'HOME PAGE';
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 10px;
+    padding: 4px;
+    background:#000;
+    font-size: 8px;
+    color: #fff;
+}
+
+.elementor-element .icon i[class^="eicon-wordpress"]:after {
+    content: 'SIDEBAR';
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 10px;
+    padding: 4px;
+    background:#1969bd;
+    font-size: 8px;
+    color: #fff;
+}
+
+
+eicon-
+.elementor-panel .elementor-element .icon {
+   
+    padding-top: 25px !important;
+    
+}
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("fonts/Flaticon.eot");
+  src: url("fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Flaticon.woff2") format("woff2"),
+       url("fonts/Flaticon.woff") format("woff"),
+       url("fonts/Flaticon.ttf") format("truetype"),
+       url("fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Layout";
+  src: url("fonts/Flaticon.eot");
+  src: url("fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Flaticon.woff2") format("woff2"),
+       url("fonts/Flaticon.woff") format("woff"),
+       url("fonts/Flaticon.ttf") format("truetype"),
+       url("fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Design";
+  src: url("fonts/Flaticon.eot");
+  src: url("fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Flaticon.woff2") format("woff2"),
+       url("fonts/Flaticon.woff") format("woff"),
+       url("fonts/Flaticon.ttf") format("truetype"),
+       url("fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Home";
+  src: url("fonts/Flaticon.eot");
+  src: url("fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("fonts/Flaticon.woff2") format("woff2"),
+       url("fonts/Flaticon.woff") format("woff"),
+       url("fonts/Flaticon.ttf") format("truetype"),
+       url("fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+  @font-face {
+    font-family: "Layout";
+    src: url("fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+  @font-face {
+    font-family: "Design";
+    src: url("fonts/Flaticon.svg#Flaticon") format("svg");
+  } 
+  @font-face {
+    font-family: "Home";
+    src: url("fonts/Flaticon.svg#Flaticon") format("svg");
+  } 
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {     font-family: Flaticon;        font-size: 28px;font-style: normal;}
+
+[class^="layout-"]:before, [class*=" layout-"]:before,
+[class^="layout-"]:after, [class*=" layout-"]:after {     font-family: Layout;        font-size: 28px;font-style: normal;}
+  
+[class^="design-"]:before, [class*=" design-"]:before,
+[class^="design-"]:after, [class*=" design-"]:after {     font-family: Layout;        font-size: 28px;font-style: normal;}
+
+[class^="home-"]:before, [class*=" home-"]:before,
+[class^="home-"]:after, [class*=" home-"]:after {     font-family: Layout;        font-size: 28px;font-style: normal;}
+   
+
+.layout-header:before { content: "\f100"; }
+.layout-footer:before { content: "\f101"; }
+.layout-logo:before { content: "\f10f"; }
+.layout-menu:before { content: "\f104"; }
+.layout-offcanvas:before { content: "\f105"; }
+
+.design-facebook:before { content: "\f107"; }
+.design-plus:before { content: "\f108"; }
+.design-slider:before { content: "\f10a"; }
+.design-text:before { content: "\f106"; }
+.design-layout:before { content: "\f10e"; }
+.design-code:before { content: "\f103"; }
+.design-list:before { content: "\f10b"; }
+.design-folder:before { content: "\f10c"; }
+.design-blog:before { content: "\f102"; }
+.design-newsletter:before { content: "\f112"; }
+.design-search:before { content: "\f110"; }
+.design-imagebox:before { content: "\f111"; }
+.design-pictures:before { content: "\f10d"; }
+.design-carousel:before { content: "\f114"; }
+.design-contact:before { content: "\f109"; }
+.home-hero:before { content: "\f113"; }
+ 

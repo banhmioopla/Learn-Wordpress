@@ -1,0 +1,7 @@
+.dwrap i { float: left;    margin-right: 20px;    font-size: 30px;    margin-top: 5px;  }
+.dwrap ul {  float: left;
+    width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+				
